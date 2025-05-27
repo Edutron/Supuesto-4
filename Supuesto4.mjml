@@ -4,21 +4,57 @@
     <mj-title>🎟️ Sorteo MotoGP</mj-title>
     <!-- Estilos CSS -->
     <mj-style>
-      .img {
-        left: 0px;
-        top: 0px;
-        z-index: -1;
+      @media (max-width:420px) { 
+        .img_logo{
+  				width: 200px;
+        }
+      }
+      @media (max-width:420px) { 
+        .img_max{
+          position: relative;
+  				top: 0px;
+  				left: 0px;
+  				width: 400px;
+  				height: 200px;
+        }
       }
       
-      a {
-        text-decoration: none;
-        color: inherit;
+      @media (max-width:420px) { 
+        .text_max{
+          top: -105px;
+  				left: -495px;
+  				position: absolute;
+      		width: 800px;
+  				height: 800px;
+      		font-size: 0.65em;
+        }
       }
+      
+      .img {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 600px;
+  height: 300px;
+  z-index: 1;
+}
+      
+.text {
+  top: 250px;
+  left: 505px;
+  position: absolute;
+  z-index: 2;
+}
+      
+ a {
+     text-decoration: none;
+     color: inherit;
+}
     </mj-style>
   </mj-head>
   <mj-body background-color="black">
     <!-- Logo -->
-    <mj-section>
+    <mj-section css-class="img_logo">
       <mj-group>
         <mj-column>
           <mj-image width="400px" src="https://dosruedas.feriavalencia.com/wp-content/uploads/2022/03/cropped-Logo_2RUEDAS_2022_150ppp-1.png" padding="0"></mj-image>
@@ -30,12 +66,16 @@
       <mj-group>
         <mj-column>
           <mj-text font-family="helvetica" padding="0" color="white" align="center">
+            <img class="img_max" class="img" width="600px" src="https://images.ctfassets.net/x7j9qwvpvr5s/53m7YvGvcUUtNy7Si3oeCM/9d48dde75eb35e7ce4d58285a4a219f3/2025-01-20_MGP25-Team-Launch-Desmosedici-hero-1600x1000.jpg" padding="0"></img>
+            <div class="text_max">
+            <div class="text" width="200px" height="300px">
             <h1>MOTO GP</h1>
             <h2>¡SORTEO DE 2 ENTRADAS!</h2>
             <p>¡EL GRAN PREMIO DE CHESTE PIDE SER TUYO!</p>
-            <p>14 - 16 de noviembre 2025</p>
+            <p>14 - 16 DE NOVIEMBRE 2025</p>
+            </div>
+            </div>
           </mj-text>
-          <mj-image css-class="img" width="600px" src="https://images.ctfassets.net/x7j9qwvpvr5s/53m7YvGvcUUtNy7Si3oeCM/9d48dde75eb35e7ce4d58285a4a219f3/2025-01-20_MGP25-Team-Launch-Desmosedici-hero-1600x1000.jpg" padding="0"></mj-image>
         </mj-column>
       </mj-group>
     </mj-section>
@@ -51,15 +91,15 @@
     <mj-section background-color="black">
       <mj-group>
         <mj-column>
-          <mj-text font-family="helvetica" padding="0" color="white">
-            <h1 align="center">¿COMO PARTICIPAR?</h1>
+          <mj-text font-family="helvetica" color="white">
+            <h1 align="center">¿COMO PARTICIPAR?</h1><br></br>
             <p>En colaboración con Moto GP, hemos preparado un <b>sorteo exclusivo</b> donde puedes ganar:</p>
             <p>🎟️ <b>2 entradas para ver el GP de motociclismo de Cheste</b> 🏍️🔥</p><br></br>
           </mj-text>
           <mj-button font-family="Helvetica" background-color="#b30700" color="white" border-radius="20px" href="https://dosruedas.feriavalencia.com/">
           👉🏻 COMPLETA EL FORMULARIO AQUI 👈🏻
           </mj-button>
-          <mj-text font-family="helvetica" padding="0" color="white">
+          <mj-text font-family="helvetica" color="white">
             <br></br>
             <p>Para <b>participar</b> debes seguir estos <b>2 sencillos pasos:</b></p>
           </mj-text>
@@ -70,7 +110,7 @@
     <mj-section  background-color="black">
       <mj-group>
           <mj-column>
-            <mj-text font-family="helvetica" padding="0" color="white">
+            <mj-text font-family="helvetica" color="white">
               <p>Participar es muy fácil. Si lo haces por <b>Twitter:</b></p>
               <p>1️⃣ Sigue a <a href="https://twitter.com/2ruedas_fv"  style="color: red;">@MotoGP</a></p>
               <p>2️⃣ Dale RT y ❤️ al tweet del sorteo</p>
@@ -78,14 +118,14 @@
             </mj-text>
           </mj-column>
           <mj-column>
-            <mj-image width="200px" height="117px" src="https://www.pngmart.com/files/4/MotoGP-PNG-Image.png" padding="0"></mj-image>
+            <mj-image width="200px" height="117px" src="https://www.pngmart.com/files/4/MotoGP-PNG-Image.png"></mj-image>
           </mj-column>
       </mj-group>
     </mj-section>
     <mj-section background-color="black">
       <mj-group>
         <mj-column>
-          <mj-text font-family="helvetica" padding="0" color="white">
+          <mj-text font-family="helvetica" color="white">
             <p>⏳ Tienes hasta el <b>1 de septiembre</b> para participar.</p><br></br>
           </mj-text>
           <mj-button font-family="Helvetica" background-color="#b30700" color="white" href="https://twitter.com/2ruedas_fv" border-radius="20px" width="200px" height="40px">
@@ -98,7 +138,7 @@
     <mj-section background-color="black">
       <mj-group>
         <mj-column>
-          <mj-text font-family="helvetica" padding="0" color="white">
+          <mj-text font-family="helvetica" color="white">
             <p>Participar es muy fácil. Si lo haces por <b>Instagram:</b></p>
             <p>1️⃣ Sigue a <a href="https://www.instagram.com/feriadosruedas/"  style="color: red;">@MotoGP</a></p>
             <p>2️⃣ Dale❤️ al post del sorteo</p>
@@ -106,14 +146,14 @@
           </mj-text>
         </mj-column>
         <mj-column>
-          <mj-image width="200px" height="150px" src="https://sportrenders.com/wp-content/uploads/2023/11/Pedro-Acosta-PNG-Render-Moto-GP-KTM-Gas-Gas-Free-Image.png" padding="0"></mj-image>
+          <mj-image width="200px" height="150px" src="https://sportrenders.com/wp-content/uploads/2023/11/Pedro-Acosta-PNG-Render-Moto-GP-KTM-Gas-Gas-Free-Image.png"></mj-image>
         </mj-column>
       </mj-group>
     </mj-section>
     <mj-section background-color="black">
       <mj-group>
         <mj-column>
-          <mj-text font-family="helvetica" padding="0" color="white">
+          <mj-text font-family="helvetica" color="white">
             <p>⏳ Tienes hasta el <b>1 de septiembre</b> para participar.</p><br></br>
           </mj-text>
           <mj-button font-family="Helvetica" background-color="#b30700" color="white" href="https://www.instagram.com/feriadosruedas/" border-radius="20px" width="200px" height="40px">
@@ -166,13 +206,13 @@
           <mj-text font-family="Helvetica" color="white" align="center">
             <h2>Organiza:</h2>
           </mj-text>
-          <mj-image width="200px" height="100px" padding="0" src="https://www.feriavalencia.com/wp-content/uploads/2022/09/logo-fv-lineas-blanco-e1683284120817.png" href="https://www.feriavalencia.com/"></mj-image>
+          <mj-image width="200px" height="100px" src="https://www.feriavalencia.com/wp-content/uploads/2022/09/logo-fv-lineas-blanco-e1683284120817.png" href="https://www.feriavalencia.com/"></mj-image>
         </mj-column>
         <mj-column>
           <mj-text font-family="Helvetica" color="white" align="center">
             <h2>Patrocina:</h2>
           </mj-text>
-          <mj-image width="200px" height="100px" padding="0" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Mapfre_logo.svg/2560px-Mapfre_logo.svg.png" href="https://www.mapfre.es/particulares/"></mj-image>
+          <mj-image width="200px" height="100px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Mapfre_logo.svg/2560px-Mapfre_logo.svg.png" href="https://www.mapfre.es/particulares/"></mj-image>
         </mj-column>
       </mj-group>
     </mj-section>
@@ -188,13 +228,13 @@
     <mj-section background-color="black" border-radius="10%">
       <mj-group>
         <mj-column>
-          <mj-image width="200px" height="100px" padding="0" src="https://serviciossociales.gva.es/documents/610754/0/Logos+IRPF+2023-06+BLANCO_CAST+%281%29.png/ce2b8067-8be1-e77b-2abc-b82d2c2463c8?t=1697627492969" href="https://www.gva.es/es/inicio/presentacion"></mj-image>
+          <mj-image width="200px" height="100px" src="https://serviciossociales.gva.es/documents/610754/0/Logos+IRPF+2023-06+BLANCO_CAST+%281%29.png/ce2b8067-8be1-e77b-2abc-b82d2c2463c8?t=1697627492969" href="https://www.gva.es/es/inicio/presentacion" padding="0"></mj-image>
         </mj-column>
         <mj-column>
-          <mj-image width="200px" height="100px" padding="0" src="https://escaner.dineretic.org/wp-content/uploads/2023/01/logo-caixapopular-800x600px.png" href="https://www.caixapopular.es/es"></mj-image>
+          <mj-image width="200px" height="100px" src="https://escaner.dineretic.org/wp-content/uploads/2023/01/logo-caixapopular-800x600px.png" href="https://www.caixapopular.es/es" padding="0"></mj-image>
         </mj-column>
         <mj-column>
-          <mj-image width="200px" height="100px" padding="0" src="https://crecerenpositivo.org/wp-content/uploads/2020/09/LOGO-ARROZ-DACSA-570x570.webp" href="https://arrozdacsa.com/"></mj-image>
+          <mj-image width="200px" height="100px" src="https://crecerenpositivo.org/wp-content/uploads/2020/09/LOGO-ARROZ-DACSA-570x570.webp" href="https://arrozdacsa.com/" padding="0"></mj-image>
         </mj-column>
       </mj-group>
     </mj-section>
