@@ -21,12 +21,12 @@
       
       @media (max-width:420px) { 
         .text_max{
-          top: -105px;
-  				left: -495px;
+          top: -80px;
+  				left: -485px;
   				position: absolute;
       		width: 800px;
   				height: 800px;
-      		font-size: 0.65em;
+      		font-size: 0.55em;
         }
       }
       
@@ -40,8 +40,8 @@
 }
       
 .text {
-  top: 250px;
-  left: 505px;
+  top: 200px;
+  left: 530px;
   position: absolute;
   z-index: 2;
 }
@@ -57,7 +57,7 @@
     <mj-section css-class="img_logo">
       <mj-group>
         <mj-column>
-          <mj-image width="400px" src="https://dosruedas.feriavalencia.com/wp-content/uploads/2022/03/cropped-Logo_2RUEDAS_2022_150ppp-1.png" padding="0"></mj-image>
+          <mj-image width="400px" src="https://github.com/Edutron/Supuesto-4/blob/main/Logo%20.png?raw=true" padding="0" href="https://dosruedas.feriavalencia.com/"></mj-image>
         </mj-column>
       </mj-group>
     </mj-section>
@@ -65,17 +65,7 @@
     <mj-section  background-color="black">
       <mj-group>
         <mj-column>
-          <mj-text font-family="helvetica" padding="0" color="white" align="center">
-            <img class="img_max" class="img" width="600px" src="https://images.ctfassets.net/x7j9qwvpvr5s/53m7YvGvcUUtNy7Si3oeCM/9d48dde75eb35e7ce4d58285a4a219f3/2025-01-20_MGP25-Team-Launch-Desmosedici-hero-1600x1000.jpg" padding="0"></img>
-            <div class="text_max">
-            <div class="text" width="200px" height="300px">
-            <h1>MOTO GP</h1>
-            <h2>¡SORTEO DE 2 ENTRADAS!</h2>
-            <p>¡EL GRAN PREMIO DE CHESTE PIDE SER TUYO!</p>
-            <p>14 - 16 DE NOVIEMBRE 2025</p>
-            </div>
-            </div>
-          </mj-text>
+          <mj-image width="400px" src="https://github.com/Edutron/Supuesto-4/blob/main/Logo%20.png?raw=true" padding="0" href="https://dosruedas.feriavalencia.com/"></mj-image>
         </mj-column>
       </mj-group>
     </mj-section>
