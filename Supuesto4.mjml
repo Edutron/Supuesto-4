@@ -52,7 +52,7 @@
           👉🏻 COMPLETA EL FORMULARIO AQUI 👈🏻
           </mj-button>
           <mj-text font-family="helvetica" color="white">
-            <p>Para <b>participar</b> debes seguir estos <b>2 sencillos pasos:</b></p>
+            <p>Para <b>participar</b> debes seguir uno de estos <b>2 sencillos pasos:</b></p>
           </mj-text>
         </mj-column>
       </mj-group>
@@ -65,7 +65,7 @@
               <p>Participar es muy fácil. Si lo haces por <b>Twitter:</b></p>
               <p>1️⃣ Sigue a <a href="https://twitter.com/2ruedas_fv"  style="color: red;">@MotoGP</a></p>
               <p>2️⃣ Dale RT y ❤️ al tweet del sorteo</p>
-              <p>3️⃣ Comenta quien es tu piloto favorito y porque</p>
+              <p>3️⃣ Comenta tu piloto favorito y porque</p>
             </mj-text>
           </mj-column>
           <mj-column>
@@ -77,7 +77,7 @@
       <mj-group>
         <mj-column>
           <mj-text font-family="helvetica" color="white">
-            <p>⏳ Tienes hasta el <b class="b">1 de septiembre</b> para participar.</p>
+            <p>⏳ Tienes hasta el <b class="b">1 de septiembre</b> para participar</p>
           </mj-text>
           <mj-button font-family="Helvetica" background-color="#b30700" color="white" href="https://twitter.com/2ruedas_fv" border-radius="20px" width="200px" height="40px">
           TWEET SORTEO
@@ -92,7 +92,7 @@
           <mj-text font-family="helvetica" color="white">
             <p>Participar es muy fácil. Si lo haces por <b>Instagram:</b></p>
             <p>1️⃣ Sigue a <a href="https://www.instagram.com/feriadosruedas/"  style="color: red;">@MotoGP</a></p>
-            <p>2️⃣ Dale❤️ al post del sorteo</p>
+            <p>2️⃣ Dale ❤️ al post del sorteo</p>
             <p>3️⃣ Compártelo en tus historias</p>
           </mj-text>
         </mj-column>
@@ -105,7 +105,7 @@
       <mj-group>
         <mj-column>
           <mj-text font-family="helvetica" color="white">
-            <p>⏳ Tienes hasta el <b class="b">1 de septiembre</b> para participar.</p>
+            <p>⏳ Tienes hasta el <b class="b">1 de septiembre</b> para participar</p>
           </mj-text>
           <mj-button font-family="Helvetica" background-color="#b30700" color="white" href="https://twitter.com/2ruedas_fv" border-radius="20px" width="200px" height="40px">
           POST SORTEO
