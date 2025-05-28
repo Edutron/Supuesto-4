@@ -14,20 +14,20 @@
       }
     </mj-style>
   </mj-head>
-  <mj-body background-color="black">
+  <mj-body background-color="#202124">
     <!-- Logo -->
     <mj-section css-class="img_logo">
       <mj-group>
         <mj-column>
-          <mj-image width="400px" src="https://github.com/Edutron/Supuesto-4/blob/main/Logo%20.png?raw=true" padding="0" href="https://dosruedas.feriavalencia.com/"></mj-image>
+          <mj-image width="400px" src="https://github.com/Edutron/Supuesto-4/blob/main/Logo%20Feria%202%20Ruedas.png?raw=true" padding="0" href="https://dosruedas.feriavalencia.com/"></mj-image>
         </mj-column>
       </mj-group>
     </mj-section>
     <!-- Imagen del Sorteo -->
-    <mj-section  background-color="black">
+    <mj-section>
       <mj-group>
         <mj-column>
-          <mj-image width="600px" src="https://github.com/Edutron/Supuesto-4/blob/main/Motos.png?raw=true" padding="0" href="https://dosruedas.feriavalencia.com/"></mj-image>
+          <mj-image width="600px" src="https://github.com/Edutron/Supuesto-4/blob/main/Motos.png?raw=true" padding="0" href="https://dosruedas.feriavalencia.com/" border-radius="20px"></mj-image>
         </mj-column>
       </mj-group>
     </mj-section>
@@ -40,26 +40,25 @@
       </mj-group>
     </mj-section>
     <!--Como Participar-->
-    <mj-section background-color="black">
+    <mj-section background-color="#2c2c2c" border-radius="20px 20px 0px 0px" padding-top="0px" padding-bottom="0px">
       <mj-group>
         <mj-column>
           <mj-text font-family="helvetica" color="white">
-            <h1 align="center">¿COMO PARTICIPAR?</h1><br></br>
+            <h1 align="center">¿COMO PARTICIPAR?</h1>
             <p>En colaboración con Moto GP hemos preparado un <b>sorteo exclusivo</b> donde puedes ganar:</p>
-            <p>🎟️ <b>2 entradas para ver el GP de motociclismo de Cheste</b> 🏍️🔥</p><br></br>
+            <p>🎟️ <b>2 entradas para ver el GP de motociclismo de Cheste</b> 🏍️🔥</p>
           </mj-text>
           <mj-button font-family="Helvetica" background-color="#b30700" color="white" border-radius="20px" href="https://dosruedas.feriavalencia.com/">
           👉🏻 COMPLETA EL FORMULARIO AQUI 👈🏻
           </mj-button>
           <mj-text font-family="helvetica" color="white">
-            <br></br>
             <p>Para <b>participar</b> debes seguir estos <b>2 sencillos pasos:</b></p>
           </mj-text>
         </mj-column>
       </mj-group>
     </mj-section>
     <!-- Participar Twitter -->
-    <mj-section  background-color="black">
+    <mj-section background-color="#2c2c2c" padding-top="0px" padding-bottom="0px">
       <mj-group>
           <mj-column>
             <mj-text font-family="helvetica" color="white">
@@ -70,15 +69,15 @@
             </mj-text>
           </mj-column>
           <mj-column>
-            <mj-image width="200px" height="117px" src="https://www.pngmart.com/files/4/MotoGP-PNG-Image.png"></mj-image>
+            <mj-image width="200px" height="120px" src="https://www.pngmart.com/files/4/MotoGP-PNG-Image.png"></mj-image>
           </mj-column>
       </mj-group>
     </mj-section>
-    <mj-section background-color="black">
+    <mj-section background-color="#2c2c2c" padding-top="0px" padding-bottom="0px">
       <mj-group>
         <mj-column>
           <mj-text font-family="helvetica" color="white">
-            <p>⏳ Tienes hasta el <b class="b">1 de septiembre</b> para participar.</p><br></br>
+            <p>⏳ Tienes hasta el <b class="b">1 de septiembre</b> para participar.</p>
           </mj-text>
           <mj-button font-family="Helvetica" background-color="#b30700" color="white" href="https://twitter.com/2ruedas_fv" border-radius="20px" width="200px" height="40px">
           TWEET SORTEO
@@ -87,7 +86,7 @@
       </mj-group>
     </mj-section>
     <!-- Participar Instagram -->
-    <mj-section background-color="black">
+    <mj-section background-color="#2c2c2c" padding-top="0px" padding-bottom="0px">
       <mj-group>
         <mj-column>
           <mj-text font-family="helvetica" color="white">
@@ -98,17 +97,17 @@
           </mj-text>
         </mj-column>
         <mj-column>
-          <mj-image width="200px" height="150px" src="https://sportrenders.com/wp-content/uploads/2023/11/Pedro-Acosta-PNG-Render-Moto-GP-KTM-Gas-Gas-Free-Image.png"></mj-image>
+          <mj-image width="200px" height="120px" src="https://sportrenders.com/wp-content/uploads/2023/11/Pedro-Acosta-PNG-Render-Moto-GP-KTM-Gas-Gas-Free-Image.png"></mj-image>
         </mj-column>
       </mj-group>
     </mj-section>
-    <mj-section background-color="black">
+    <mj-section background-color="#2c2c2c" border-radius="0px 0px 20px 20px" padding-top="0px">
       <mj-group>
         <mj-column>
           <mj-text font-family="helvetica" color="white">
-            <p>⏳ Tienes hasta el <b class="b">1 de septiembre</b> para participar.</p><br></br>
+            <p>⏳ Tienes hasta el <b class="b">1 de septiembre</b> para participar.</p>
           </mj-text>
-          <mj-button font-family="Helvetica" background-color="#b30700" color="white" href="https://www.instagram.com/feriadosruedas/" border-radius="20px" width="200px" height="40px">
+          <mj-button font-family="Helvetica" background-color="#b30700" color="white" href="https://twitter.com/2ruedas_fv" border-radius="20px" width="200px" height="40px">
           POST SORTEO
           </mj-button>
         </mj-column>
@@ -123,10 +122,10 @@
       </mj-group>
     </mj-section>
     <!-- Redes Sociales -->
-    <mj-section background-color="black">
+    <mj-section background-color="#2c2c2c" border-radius="20px">
       <mj-group>
         <mj-column>
-          <mj-text font-family="Helvetica" color="white">
+          <mj-text font-family="Helvetica" color="white" >
             <b>¿Quieres enterarte de todas las novedades del evento?</b> Síguenos en nuestras redes para no perderte absolutamente nada.
           </mj-text>
           <mj-social font-size="25px" icon-size="40px" mode="horizontal">
@@ -152,7 +151,7 @@
       </mj-column>
     </mj-section>
     <!--Final de la web-->
-    <mj-section background-color="black">
+    <mj-section background-color="#2c2c2c" border-radius="20px 20px 0px 0px">
       <mj-group>
         <mj-column>
           <mj-text font-family="Helvetica" color="white" align="center">
@@ -168,7 +167,7 @@
         </mj-column>
       </mj-group>
     </mj-section>
-    <mj-section background-color="black" border-radius="10%">
+    <mj-section background-color="#2c2c2c">
       <mj-group>
         <mj-column>
           <mj-text font-family="Helvetica" color="white" align="center" padding="0">
@@ -177,7 +176,7 @@
         </mj-column>
       </mj-group>
     </mj-section>
-    <mj-section background-color="black" border-radius="10%">
+    <mj-section background-color="#2c2c2c" border-radius="0px 0px 20px 20px">
       <mj-group>
         <mj-column>
           <mj-image width="200px" height="100px" src="https://serviciossociales.gva.es/documents/610754/0/Logos+IRPF+2023-06+BLANCO_CAST+%281%29.png/ce2b8067-8be1-e77b-2abc-b82d2c2463c8?t=1697627492969" href="https://www.gva.es/es/inicio/presentacion" padding="0"></mj-image>
