@@ -27,7 +27,7 @@
     <mj-section>
       <mj-group>
         <mj-column>
-          <mj-image width="600px" src="https://github.com/Edutron/Supuesto-4/blob/main/Motos.png?raw=true" padding="0" href="https://dosruedas.feriavalencia.com/" border-radius="20px"></mj-image>
+          <mj-image width="600px" src="https://github.com/Edutron/Supuesto-4/blob/main/Sorteo1.png?raw=true" padding="0" href="https://dosruedas.feriavalencia.com/" border-radius="20px"></mj-image>
         </mj-column>
       </mj-group>
     </mj-section>
@@ -44,6 +44,7 @@
       <mj-group>
         <mj-column>
           <mj-text font-family="helvetica" color="white">
+            <h1 align="center">¡Hola {{nombre}} sabemos que quieres las entradas!</h1><br></br>
             <h1 align="center">¿COMO PARTICIPAR?</h1>
             <p>En colaboración con Moto GP hemos preparado un <b>sorteo exclusivo</b> donde puedes ganar:</p>
             <p>🎟️ <b>2 entradas para ver el GP de motociclismo de Cheste</b> 🏍️🔥</p>
@@ -63,7 +64,7 @@
           <mj-column>
             <mj-text font-family="helvetica" color="white">
               <p>Participar es muy fácil. Si lo haces por <b>Twitter:</b></p>
-              <p>1️⃣ Sigue a <a href="https://twitter.com/2ruedas_fv"  style="color: red;">@MotoGP</a></p>
+              <p>1️⃣ Sigue a <a href="https://twitter.com/2ruedas_fv"  style="color: red;">@2ruedas_fv</a></p>
               <p>2️⃣ Dale RT y ❤️ al tweet del sorteo</p>
               <p>3️⃣ Comenta tu piloto favorito y porque</p>
             </mj-text>
@@ -91,7 +92,7 @@
         <mj-column>
           <mj-text font-family="helvetica" color="white">
             <p>Participar es muy fácil. Si lo haces por <b>Instagram:</b></p>
-            <p>1️⃣ Sigue a <a href="https://www.instagram.com/feriadosruedas/"  style="color: red;">@MotoGP</a></p>
+            <p>1️⃣ Sigue a <a href="https://www.instagram.com/feriadosruedas/"  style="color: red;">@feriadosruedas</a></p>
             <p>2️⃣ Dale ❤️ al post del sorteo</p>
             <p>3️⃣ Compártelo en tus historias</p>
           </mj-text>
@@ -107,7 +108,7 @@
           <mj-text font-family="helvetica" color="white">
             <p>⏳ Tienes hasta el <b class="b">1 de septiembre</b> para participar</p>
           </mj-text>
-          <mj-button font-family="Helvetica" background-color="#b30700" color="white" href="https://twitter.com/2ruedas_fv" border-radius="20px" width="200px" height="40px">
+          <mj-button font-family="Helvetica" background-color="#b30700" color="white" href="https://www.instagram.com/feriadosruedas/" border-radius="20px" width="200px" height="40px">
           POST SORTEO
           </mj-button>
         </mj-column>
@@ -157,13 +158,13 @@
           <mj-text font-family="Helvetica" color="white" align="center">
             <h2>Organiza:</h2>
           </mj-text>
-          <mj-image width="200px" height="100px" src="https://www.feriavalencia.com/wp-content/uploads/2022/09/logo-fv-lineas-blanco-e1683284120817.png" href="https://www.feriavalencia.com/"></mj-image>
+          <mj-image width="150px" height="100px" src="https://www.feriavalencia.com/wp-content/uploads/2022/09/logo-fv-lineas-blanco-e1683284120817.png" href="https://www.feriavalencia.com/"></mj-image>
         </mj-column>
         <mj-column>
           <mj-text font-family="Helvetica" color="white" align="center">
             <h2>Patrocina:</h2>
           </mj-text>
-          <mj-image width="200px" height="100px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Mapfre_logo.svg/2560px-Mapfre_logo.svg.png" href="https://www.mapfre.es/particulares/"></mj-image>
+          <mj-image width="150px" height="100px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Mapfre_logo.svg/2560px-Mapfre_logo.svg.png" href="https://www.mapfre.es/particulares/"></mj-image>
         </mj-column>
       </mj-group>
     </mj-section>
@@ -179,14 +180,26 @@
     <mj-section background-color="#2c2c2c" border-radius="0px 0px 20px 20px">
       <mj-group>
         <mj-column>
-          <mj-image width="200px" height="100px" src="https://serviciossociales.gva.es/documents/610754/0/Logos+IRPF+2023-06+BLANCO_CAST+%281%29.png/ce2b8067-8be1-e77b-2abc-b82d2c2463c8?t=1697627492969" href="https://www.gva.es/es/inicio/presentacion" padding="0"></mj-image>
+          <mj-image width="200px" height="100px" src="https://serviciossociales.gva.es/documents/610754/0/Logos+IRPF+2023-06+BLANCO_CAST+%281%29.png/ce2b8067-8be1-e77b-2abc-b82d2c2463c8?t=1697627492969" href="https://www.gva.es/es/inicio/presentacion" padding="0" padding-top="20px"></mj-image>
         </mj-column>
         <mj-column>
-          <mj-image width="200px" height="100px" src="https://escaner.dineretic.org/wp-content/uploads/2023/01/logo-caixapopular-800x600px.png" href="https://www.caixapopular.es/es" padding="0"></mj-image>
+          <mj-image width="200px" height="100px" src="https://clubdeprimerasmarcas.com/wp-content/uploads/2015/06/logo1.png" href="https://www.caixapopular.es/es" padding="0" padding-top="25px"></mj-image>
         </mj-column>
         <mj-column>
-          <mj-image width="200px" height="100px" src="https://crecerenpositivo.org/wp-content/uploads/2020/09/LOGO-ARROZ-DACSA-570x570.webp" href="https://arrozdacsa.com/" padding="0"></mj-image>
+          <mj-image width="200px" height="150px" src="https://crecerenpositivo.org/wp-content/uploads/2020/09/LOGO-ARROZ-DACSA-570x570.webp" href="https://arrozdacsa.com/" padding="0"></mj-image>
         </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- Contactos -->
+    <mj-section>
+    <mj-group>
+      <mj-column>
+      <mj-text align="center" color="white">
+          	<p>© Feria Valencia - Todos los derechos reservados.</p>
+          	<p>Contacto: feriavalencia@feriavalencia.com</p>
+        <a href="https://www.feriavalencia.com/contacto/"><u>Atencion al cliente</u></a>
+          </mj-text>
+      </mj-column>
       </mj-group>
     </mj-section>
   </mj-body>
