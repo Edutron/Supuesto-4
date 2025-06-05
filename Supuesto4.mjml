@@ -27,7 +27,7 @@
     <mj-section>
       <mj-group>
         <mj-column>
-          <mj-image width="600px" src="https://github.com/Edutron/Supuesto-4/blob/main/Sorteo1.png?raw=true" padding="0" href="https://dosruedas.feriavalencia.com/" border-radius="20px"></mj-image>
+          <mj-image width="600px" src="https://github.com/Edutron/Supuesto-4/blob/main/Sorteo.png?raw=true" padding="0" href="https://dosruedas.feriavalencia.com/" border-radius="20px"></mj-image>
         </mj-column>
       </mj-group>
     </mj-section>
